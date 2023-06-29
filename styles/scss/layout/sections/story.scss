@@ -1,0 +1,49 @@
+
+.story-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0px 103px 0px;
+}
+
+.story-content {
+    display: flex;
+}
+
+.story-picture {
+    width: 235px;
+    height: 229px;
+}
+
+.img {
+    width: 100%;
+}
+
+.story-container {
+    margin-left: 100px;
+}
+
+.title {
+    margin-bottom: 28px;
+    font-family: Playfair Display;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1.1px;
+    color: #413d4b;
+}
+
+.story-text {
+    width: 538px;
+    margin-bottom: 31px;
+    opacity: 0.75;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.57;
+    letter-spacing: 0.42px;
+    color: rgba(65, 61, 75, 0.75);
+}
+
+.story-section .btn-tittle {
+    margin: 0px;
+}

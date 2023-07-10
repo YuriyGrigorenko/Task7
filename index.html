@@ -8,15 +8,15 @@
 <body>
     <section class="welcome-section"> 
         <header class="header-content">
-            <a href="#"> 
+            <a href="#" class="logo-link"> 
                 <img 
                     src="./img/logo.png"
                     alt="logo"
                     class="img-logo"
                 />
+                <h1 class="title-main">tajam</h1>
             </a>
-            <h1 class="title-main">tajam</h1>
-            <nav class="navigation-container">
+            <nav>
                 <ul class="navigation-list">
                     <li class="navigation-list-item">
                         <a href="#" class="navigation-list-item-text"> 
@@ -55,18 +55,28 @@
                     </li>
                 </ul>
             </nav>
-        </header>    
-        <h2 class="welcome-title">We Are Awesome Creative Agency</h2>
-        <p class="welcome-subtittle">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
-        <button class="btn-tittle">
-            LEARN MORE
-        </button>
-        <div class="round-buttons">
-            <button class="round-button"></button>
-            <button class="round-button"></button>
-            <button class="round-button"></button>
-            <button class="round-button"></button>
-        </div>
+        </header>
+        <div class="welcome-container">   
+            <h2 class="welcome-title">We Are Awesome Creative Agency</h2>
+            <p class="welcome-subtittle">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+            <button class="main-btn">
+                LEARN MORE
+            </button>
+            <ul class="round-buttons">
+                <li>
+                    <button class="round-button"></button>
+                </li>
+                <li>
+                    <button class="round-button"></button>
+                </li>
+                <li>
+                    <button class="round-button"></button>
+                </li>
+                <li>
+                    <button class="round-button"></button>
+                </li>
+            </ul>
+        </div>  
     </section>
     <section class="story-section">
         <div class="story-content"> 
@@ -83,7 +93,7 @@
                 </h3>
                 <p class="story-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus</p>
                 <p class="story-text">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-                <button class="btn-tittle">
+                <button class="main-btn">
                     LEARN MORE
                 </button>
             </div>
@@ -96,6 +106,7 @@
                 alt="video-play"
                 class="img"
             />
+        </div>
         <h4 class="video-tittle">WATCH OUR STORY</h4>
     </section>
     <section class="expertise-section">
@@ -103,27 +114,69 @@
             <h3 class="title">EXPERTISE</h3>
             <p class="text">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p> 
             <ul class="expertise-container">
-                <li class="expertise-item-design">
+                <li class="expertise-item-design expertise-item">
+                    <div class="expertise-picture">
+                        <img 
+                            src="./img/web-icon.png" 
+                            alt="web-icon"
+                            img="img"
+                        />
+                    </div>
                     <h4 class="expertise-container-subtitle">WEB DESIGN & DEVELOPMENT</h4>
                     <p class="expertise-container-description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
                 </li>
-                <li class="expertise-item-branding">
+                <li class="expertise-item-branding expertise-item">
+                    <div class="expertise-picture">
+                        <img 
+                            src="./img/pencil-icon.png" 
+                            alt="pencil-icon"
+                            img="img"
+                        />
+                    </div>
                     <h4 class="expertise-container-subtitle">BRANDING IDENTITY</h4>
                     <p class="expertise-container-description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
                 </li>
-                <li class="expertise-item-mobile">
+                <li class="expertise-item-mobile expertise-item">
+                    <div class="expertise-picture">
+                        <img 
+                            src="./img/mobile-icon.png" 
+                            alt="mobile-icon"
+                            img="img"
+                        />
+                    </div>
                     <h4 class="expertise-container-subtitle">MOBILE APP</h4>
                     <p class="expertise-container-description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
                 </li>
-                <li class="expertise-item-search">
+                <li class="expertise-item-search expertise-item">
+                    <div class="expertise-picture">
+                        <img 
+                            src="./img/search-icon.png" 
+                            alt="search-icon"
+                            img="img"
+                        />
+                    </div>
                     <h4 class="expertise-container-subtitle">SEARCH ENGINE OPTIMIZATION</h4>
                     <p class="expertise-container-description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
                 </li>
-                <li class="expertise-item-game">
+                <li class="expertise-item-game expertise-item">
+                    <div class="expertise-picture">
+                        <img 
+                            src="./img/game-icon.png" 
+                            alt="game-icon"
+                            img="img"
+                        />
+                    </div>
                     <h4 class="expertise-container-subtitle">GAME DEVELOPMENT</h4>
                     <p class="expertise-container-description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
                 </li>
-                <li class="expertise-item-love">
+                <li class="expertise-item-love expertise-item">
+                    <div class="expertise-picture">
+                        <img 
+                            src="./img/love-icon.png" 
+                            alt="love-icon"
+                            img="img"
+                        />
+                    </div>
                     <h4 class="expertise-container-subtitle">MADE WITH LOVE</h4>
                     <p class="expertise-container-description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
                 </li>
@@ -135,12 +188,14 @@
             <h3 class="title">MEET OUR AMAZING TEAM</h3>
             <p class="text">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p> 
             <ul class="team-container">
-                <li class="team-worker">
-                    <img 
-                        src="./img/Semf-logo.png" 
-                        alt="Semf-logo"
-                        class="img"
-                    />
+                <li>
+                    <div class="team-worker"> 
+                        <img 
+                            src="./img/Semf-logo.png" 
+                            alt="Semf-logo"
+                            class="img"
+                        />
+                    </div>
                     <p class="team-name">
                         SEMF UCUK
                     </p>
@@ -148,12 +203,14 @@
                         CEO & FOUNDER
                     </span>
                 </li>
-                <li class="team-worker">
-                    <img 
-                        src="./img/Dik-logo.png" 
-                        alt="Dik-logo"
-                        class="img"
-                    />
+                <li>
+                    <div class="team-worker"> 
+                        <img 
+                            src="./img/Dik-logo.png" 
+                            alt="Dik-logo"
+                            class="img"
+                        />
+                    </div>
                     <p class="team-name">
                         DIK ADALIN
                     </p>
@@ -161,12 +218,14 @@
                         ENGINEERING
                     </span>
                 </li>
-                <li class="team-worker">
-                    <img 
-                        src="./img/Jeng-logo.png" 
-                        alt="Jeng-logo"
-                        class="img"
-                    />
+                <li>
+                    <div class="team-worker"> 
+                        <img 
+                            src="./img/Jeng-logo.png" 
+                            alt="Jeng-logo"
+                            class="img"
+                        />
+                    </div>
                     <p class="team-name">
                         JENG KOL
                     </p>
@@ -174,12 +233,14 @@
                         DESIGNER
                     </span>
                 </li>
-                <li class="team-worker">
-                    <img 
-                        src="./img/Pet-logo.png" 
-                        alt="Pet-logo"
-                        class="img"
-                    />
+                <li>
+                    <div class="team-worker">
+                        <img 
+                            src="./img/Pet-logo.png" 
+                            alt="Pet-logo"
+                            class="img"
+                        />
+                    </div>
                     <p class="team-name">
                         PET ROMAK
                     </p>
@@ -189,7 +250,7 @@
                 </li>
             </ul>
             <p class="team-text">Become part of our dream team, let’s join us !</p>
-            <button class="team-btn">WE ARE HIRING</button>
+            <button class="main-btn">WE ARE HIRING</button>
         </div>
     </section>
 </body>

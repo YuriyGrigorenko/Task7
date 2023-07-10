@@ -13,14 +13,11 @@
 .story-picture {
     width: 235px;
     height: 229px;
-}
+    margin-right: 100px;
 
-.img {
-    width: 100%;
-}
-
-.story-container {
-    margin-left: 100px;
+    &.img {
+        width: 100%;
+    }
 }
 
 .title {
@@ -29,7 +26,11 @@
     font-size: 22px;
     font-weight: bold;
     letter-spacing: 1.1px;
-    color: #413d4b;
+}
+
+.story-section .title {
+    text-align: left;
+    color: $color-primary;
 }
 
 .story-text {
@@ -42,8 +43,4 @@
     line-height: 1.57;
     letter-spacing: 0.42px;
     color: rgba(65, 61, 75, 0.75);
-}
-
-.story-section .btn-tittle {
-    margin: 0px;
 }

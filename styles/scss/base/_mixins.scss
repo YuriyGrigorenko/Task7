@@ -1,0 +1,13 @@
+
+@mixin separator($color:#00e0d0) {
+    &::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: -18px;
+        transform: translateX(-50%);
+        width: 50px;
+        height: 1px;
+        background-color: $color;
+    }
+}

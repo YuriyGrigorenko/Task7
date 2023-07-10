@@ -2,28 +2,30 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     height: 100vh;
     padding: 202px 0px 202px 0px;
     background-image: url("../../img/background-video.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     cursor: pointer;
 }
 
 .video-picture {
     width: 100px;
     height: 100px;
+    margin-bottom: 34px;
 }
 
 .video-tittle {
-    width: 159px;
-    margin-top: 34px;
-    margin-left: -30px;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 900;
     letter-spacing: 0.8px;
-    color: #fff;
+    color: $color-words;
 
     &:hover {
-        color: lightblue;
+        color: $base-color;
     }
 }

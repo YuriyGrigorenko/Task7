@@ -403,11 +403,9 @@ button {
   background-repeat: no-repeat;
   background-position: center;
 }
-
-.title {
+.team-section .title {
   margin-bottom: 16px;
-  text-align: center;
-  color: white;
+  color: #fff;
 }
 
 .text {
@@ -494,12 +492,147 @@ button {
   font-family: Hammersmith One;
   font-size: 16px;
   border-radius: 2.3px;
-  border: solid 1px #00e0d0;
+  border: solid 1px color-text;
   background: none;
   color: #00e0d0;
   cursor: pointer;
 }
 .team-btn:hover {
+  color: lightblue;
+}
+
+.works-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 70px 0px 70px 0px;
+}
+
+.works-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 1000px;
+  margin-bottom: 70px;
+}
+.works-header .title {
+  color: #413d4b;
+}
+
+.works-subtitle {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+  text-align: right;
+  color: #413d4b;
+}
+.works-subtitle::after {
+  content: ">";
+  margin-left: 10px;
+  display: inline-block;
+  height: 16px;
+  vertical-align: middle;
+}
+
+.works-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1800px;
+  margin-bottom: 70px;
+}
+.works-container .rectangle {
+  width: 267px;
+  height: 200px;
+  order: 1;
+}
+.works-container .rectangle1 {
+  width: 267px;
+  height: 200px;
+  background-color: #b6b6b6;
+  order: 1;
+}
+.works-container .rectangle2 {
+  width: 267px;
+  height: 200px;
+  background-color: #acacac;
+  order: 1;
+}
+.works-container .rectangle3 {
+  width: 267px;
+  height: 200px;
+  background-color: #a1a1a1;
+  order: 1;
+}
+.works-container .rectangle4 {
+  width: 267px;
+  height: 200px;
+  background-color: #8a8a8a;
+  order: 1;
+}
+.works-container .rectangle5 {
+  width: 267px;
+  height: 200px;
+  background-color: #b6b6b6;
+  order: 1;
+}
+.works-container .rectangle6 {
+  width: 267px;
+  height: 200px;
+  background-color: #a4a4a4;
+  order: 1;
+}
+.works-container .rectangle7 {
+  width: 267px;
+  height: 200px;
+  background-color: #a4a4a4;
+  order: 2;
+}
+.works-container .rectangle8 {
+  width: 267px;
+  height: 200px;
+  background-color: #b6b6b6;
+  order: 2;
+}
+.works-container .rectangle9 {
+  width: 267px;
+  height: 200px;
+  background-color: #8a8a8a;
+  order: 2;
+}
+.works-container .rectangle10 {
+  width: 267px;
+  height: 200px;
+  background-color: #a1a1a1;
+  order: 2;
+}
+.works-container .rectangle11 {
+  width: 267px;
+  height: 200px;
+  background-color: #acacac;
+  order: 2;
+}
+.works-container .rectangle12 {
+  width: 267px;
+  height: 200px;
+  background-color: #b6b6b6;
+  order: 2;
+}
+
+.works-btn {
+  height: 40px;
+  padding: 0px 28px 0px 28px;
+  font-family: Hammersmith One;
+  font-size: 16px;
+  border-radius: 2.3px;
+  border: solid 1px #00e0d0;
+  background: none;
+  color: #00e0d0;
+  cursor: pointer;
+}
+.works-btn:hover {
   color: lightblue;
 }
 

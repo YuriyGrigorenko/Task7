@@ -407,7 +407,7 @@ button {
 .title {
   margin-bottom: 16px;
   text-align: center;
-  color: white;
+  color: #fff;
 }
 
 .text {
@@ -494,7 +494,7 @@ button {
   font-family: Hammersmith One;
   font-size: 16px;
   border-radius: 2.3px;
-  border: solid 1px #00e0d0;
+  border: solid 1px color-text;
   background: none;
   color: #00e0d0;
   cursor: pointer;

@@ -1,0 +1,116 @@
+.quote-section { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    padding: 69px 0px 69px 0px;
+    background-image: url("../../img/background-quote.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.quote-sign {
+    opacity: 0.9;
+    font-family: Playfair Display;
+    font-size: 100px;
+    letter-spacing: 3px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.quote-text {
+    width: 770px;
+    height: 95px;
+    margin-bottom: 52px;
+    opacity: 0.85;
+    font-family: Playfair Display;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.quote-name {
+    margin-bottom: 13px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 1.57;
+    letter-spacing: 0.7px;
+    color: $color-words;
+}
+
+.quote-post {
+    margin-bottom: 45px;
+    opacity: 0.7;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.quote-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+
+    &::before {
+        content: "";
+        width: 11px;
+        height: 21px;
+        background-image: url(../../img/arrow-left.png);
+        background-size: cover;
+    }
+
+    &::after {
+        content: "";
+        width: 11px;
+        height: 21px;
+        margin-left: -20px;
+        background-image: url(../../img/arrow-right.png);
+        background-size: cover;
+    }
+}
+
+.photo1 {
+    width: 45px;
+    height: 45px;
+    background-image: url(../../img/quote-logo1.png);
+    background-size: cover;
+}
+
+.photo2 {
+    width: 45px;
+    height: 45px;
+    background-image: url(../../img/quote-logo2.png);
+    background-size: cover;
+}
+
+.photo3 {
+    width: 70px;
+    height: 70px;
+    background-image: url(../../img/quote-logo.png);
+    background-size: cover;
+}
+
+.photo4 {
+    width: 45px;
+    height: 45px;
+    background-image: url(../../img/quote-logo3.png);
+    background-size: cover;
+}
+
+.photo5 {
+    width: 45px;
+    height: 45px;
+    background-image: url(../../img/quote-logo4.png);
+    background-size: cover;
+}
+
+
+  
+

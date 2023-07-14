@@ -1,0 +1,147 @@
+.clients-section {
+    display: flex;
+    justify-content: center;
+    padding: 72px 0px 70px 0px;
+
+    .title {
+        margin-bottom: 35px;
+        color: $color-primary;
+    }
+}
+
+.clients-form-container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.clients-form-content {
+    
+    input {
+        margin-bottom: 23px;
+        padding: 18px 250px 17px 21px;
+        opacity: 0.5;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        letter-spacing: 0.7px;
+    }
+
+    textarea {
+        padding: 18px 254px 165px 21px;
+        margin-bottom: 21px;
+        opacity: 0.5;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        letter-spacing: 0.7px;
+    }
+}
+
+.btn-clients {
+    height: 40px;
+    padding: 0px 28px 0px 28px;
+    font-family: Hammersmith One;
+    font-size: 16px;
+    border-radius: 2.3px;
+    border: solid 1px $color-text;
+    background: none;
+    color: $color-text;
+    cursor: pointer;
+
+    &:hover {
+        color: $base-color;
+    }
+}
+
+.clients-brands-container {
+
+    .title {
+        margin-bottom: 35px;
+        color: $color-primary;
+    }
+}
+
+.clients-items {
+    column-count: 2;
+    column-gap: 80px;
+}
+
+.Zara {
+    width: 162px;
+    height: 22px;
+    margin-bottom: 47px;
+    background-image: url(../../img/zara-logo.png);
+    background-size: cover;
+}
+
+.BarneysNewYork {
+    width: 154px;
+    height: 49px;
+    margin-bottom: 47px;
+    background-image: url(../../img/barneys-new-york-logo.png);
+    background-size: cover;
+}
+
+.Calvinklein {
+    width: 151px;
+    height: 24px;
+    margin-bottom: 54px;
+    background-image: url(../../img/calvin-klein-logo.png);
+    background-size: cover;
+}
+
+.Converse {
+    width: 113px;
+    height: 69px;
+    margin-bottom: 50px;
+    background-image: url(../../img/converse-logo.png);
+    background-size: cover;
+}
+
+.Levis {
+    width: 109px;
+    height: 53px;
+    margin-bottom: 47px;
+    background-image: url(../../img/levi-s-logo.png);
+    background-size: cover;
+}
+
+.Mango {
+    width: 138px;
+    height: 22px;
+    margin-bottom: 60px;
+    background-image: url(../../img/mango-logo.png);
+    background-size: cover;
+}
+
+.Gucci {
+    width: 140px;
+    height: 21px;
+    margin-bottom: 53px;
+    background-image: url(../../img/gucci-logo.png);
+    background-size: cover;
+}
+
+.Nike {
+    width: 95px;
+    height: 34px;
+    margin-bottom: 54px;
+    background-image: url(../../img/nike-logo.png);
+    background-size: cover;
+}
+
+.Puma {
+    width: 114px;
+    height: 56px;
+    margin-bottom: 29px;
+    background-image: url(../../img/puma-logo.png);
+    background-size: cover;
+}
+
+.Billabong {
+    width: 130px;
+    height: 70px;
+    background-image: url(../../img/billabong-logo.png);
+    background-size: cover;
+}

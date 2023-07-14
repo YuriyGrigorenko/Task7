@@ -646,7 +646,6 @@ button {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  cursor: pointer;
 }
 
 .quote-sign {
@@ -701,6 +700,7 @@ button {
   height: 21px;
   background-image: url(../../img/arrow-left.png);
   background-size: cover;
+  cursor: pointer;
 }
 .quote-container::after {
   content: "";
@@ -709,6 +709,7 @@ button {
   margin-left: -20px;
   background-image: url(../../img/arrow-right.png);
   background-size: cover;
+  cursor: pointer;
 }
 
 .photo1 {

@@ -4,6 +4,11 @@
     justify-content: center;
     align-items: center;
     padding: 70px 0px 103px 0px;
+
+    .title {
+        margin-bottom: 28px;
+        color: $color-primary;
+    }
 }
 
 .story-content {
@@ -14,23 +19,6 @@
     width: 235px;
     height: 229px;
     margin-right: 100px;
-
-    &.img {
-        width: 100%;
-    }
-}
-
-.title {
-    margin-bottom: 28px;
-    font-family: Playfair Display;
-    font-size: 22px;
-    font-weight: bold;
-    letter-spacing: 1.1px;
-}
-
-.story-section .title {
-    text-align: left;
-    color: $color-primary;
 }
 
 .story-text {

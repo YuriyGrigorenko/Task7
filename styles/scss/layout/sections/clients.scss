@@ -20,21 +20,22 @@
     input {
         margin-bottom: 23px;
         padding: 18px 250px 17px 21px;
-        opacity: 0.5;
         font-family: Roboto;
         font-size: 14px;
         font-weight: 300;
         letter-spacing: 0.7px;
+        opacity: 0.5;
     }
 
     textarea {
         padding: 18px 254px 165px 21px;
         margin-bottom: 21px;
-        opacity: 0.5;
         font-family: Roboto;
         font-size: 14px;
         font-weight: 300;
         letter-spacing: 0.7px;
+        opacity: 0.5;
+        resize: none;
     }
 }
 

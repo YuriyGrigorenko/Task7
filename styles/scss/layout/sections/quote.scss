@@ -61,57 +61,52 @@
         content: "";
         width: 11px;
         height: 21px;
+        margin-bottom: 10px;
         background-image: url(../../img/arrow-left.png);
         background-size: cover;
         cursor: pointer;
-    }
+    }   
 
     &::after {
         content: "";
         width: 11px;
         height: 21px;
-        margin-left: -20px;
-        background-image: url(../../img/arrow-right.png);
+        margin-bottom: 10px;
+        background-image: url(../../img/arrow-left.png);
         background-size: cover;
         cursor: pointer;
+        transform: scaleX(-1);
     }
 }
 
-.photo1 {
+.quote-photo1 {
     width: 45px;
-    height: 45px;
-    background-image: url(../../img/quote-logo1.png);
-    background-size: cover;
+    height: 45px; 
 }
 
-.photo2 {
+.quote-photo2 {
     width: 45px;
     height: 45px;
-    background-image: url(../../img/quote-logo2.png);
-    background-size: cover;
 }
 
-.photo3 {
+.quote-photo3 {
     width: 70px;
     height: 70px;
-    background-image: url(../../img/quote-logo.png);
-    background-size: cover;
 }
 
-.photo4 {
+.quote-photo4 {
     width: 45px;
     height: 45px;
-    background-image: url(../../img/quote-logo3.png);
-    background-size: cover;
 }
 
-.photo5 {
+.quote-photo5 {
     width: 45px;
     height: 45px;
-    background-image: url(../../img/quote-logo4.png);
-    background-size: cover;
 }
 
-
+.quote-btn {
+    background: none;
+    cursor: pointer;
+}
   
 

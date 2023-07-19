@@ -1,5 +1,5 @@
 
-@mixin separator($color:#00e0d0) {
+@mixin separator($color: $color-text) {
     &::after {
         content: '';
         position: absolute;
@@ -11,3 +11,16 @@
         background-color: $color;
     }
 }
+
+@mixin hover-style {
+    &:hover {
+        background-color: $base-color;
+    }
+}
+
+@mixin hover-color {
+    &:hover {
+      color: $base-color;
+    }
+  }
+  

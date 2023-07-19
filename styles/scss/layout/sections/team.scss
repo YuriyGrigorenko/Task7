@@ -57,10 +57,7 @@
     text-align: center;
     color: $color-words;
     cursor: pointer;
-
-    &:hover {
-        color: $base-color;
-    }
+    @include hover-color;
 }
 
 .team-post {
@@ -94,8 +91,5 @@
         background: none;
         color: $color-text;
         cursor: pointer;
-
-        &:hover {
-            color: $base-color;
-        }
+        @include hover-color;
     }

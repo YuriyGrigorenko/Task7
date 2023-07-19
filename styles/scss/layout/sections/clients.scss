@@ -49,10 +49,7 @@
     background: none;
     color: $color-text;
     cursor: pointer;
-
-    &:hover {
-        color: $base-color;
-    }
+    @include hover-color;
 }
 
 .clients-brands-container {

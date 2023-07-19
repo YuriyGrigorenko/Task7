@@ -56,27 +56,26 @@
     justify-content: space-between;
     align-items: center;
     width: 400px;
+}
 
-    &::before {
-        content: "";
-        width: 11px;
-        height: 21px;
-        margin-bottom: 10px;
-        background-image: url(../../img/arrow-left.png);
-        background-size: cover;
-        cursor: pointer;
-    }   
+.arrow-left-btn {
+    margin-bottom: 5px;
+    background: none;
+    cursor: pointer;
+    @include hover-style;
+}   
 
-    &::after {
-        content: "";
-        width: 11px;
-        height: 21px;
-        margin-bottom: 10px;
-        background-image: url(../../img/arrow-left.png);
-        background-size: cover;
-        cursor: pointer;
-        transform: scaleX(-1);
-    }
+.arrow-img {
+    width: 11px;
+    height: 21px;
+}
+
+.arrow-right-btn {
+    margin-bottom: 5px;
+    transform: scaleX(-1);
+    background: none;
+    cursor: pointer;
+    @include hover-style;
 }
 
 .quote-photo1 {
@@ -107,6 +106,7 @@
 .quote-btn {
     background: none;
     cursor: pointer;
+    @include hover-style;
 }
   
 

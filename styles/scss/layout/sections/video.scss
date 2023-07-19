@@ -16,6 +16,7 @@
     width: 100px;
     height: 100px;
     margin-bottom: 34px;
+    @include hover-style;
 }
 
 .video-tittle {
@@ -24,8 +25,5 @@
     font-weight: 900;
     letter-spacing: 0.8px;
     color: $color-words;
-
-    &:hover {
-        color: $base-color;
-    }
+    @include hover-color;
 }

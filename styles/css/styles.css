@@ -108,9 +108,12 @@ button {
 .logo-link {
   display: flex;
   align-items: center;
-  margin-right: 286px;
   width: 44px;
   height: 50px;
+  margin-right: 286px;
+}
+.logo-link:hover {
+  background-color: lightblue;
 }
 
 .title-main {
@@ -208,6 +211,9 @@ button {
   background: none;
   cursor: pointer;
 }
+.round-button:hover {
+  background-color: lightblue;
+}
 
 .story-section {
   display: flex;
@@ -260,6 +266,9 @@ button {
   width: 100px;
   height: 100px;
   margin-bottom: 34px;
+}
+.video-picture:hover {
+  background-color: lightblue;
 }
 
 .video-tittle {
@@ -344,11 +353,11 @@ button {
   color: rgba(51, 51, 51, 0.75);
   cursor: pointer;
 }
-.expertise-container .expertise-container-description.expertise-item-mobile, .expertise-container .expertise-container-description.expertise-item-love {
-  margin-right: 0;
-}
 .expertise-container .expertise-container-description:hover {
   color: lightblue;
+}
+.expertise-container .expertise-container-description.expertise-item-mobile, .expertise-container .expertise-container-description.expertise-item-love {
+  margin-right: 0;
 }
 
 .expertise-item {
@@ -532,6 +541,9 @@ button {
   vertical-align: middle;
   cursor: pointer;
 }
+.works-subtitle::after:hover {
+  background-color: lightblue;
+}
 
 .works-container {
   display: flex;
@@ -691,24 +703,29 @@ button {
   align-items: center;
   width: 400px;
 }
-.quote-container::before {
-  content: "";
-  width: 11px;
-  height: 21px;
-  margin-bottom: 10px;
-  background-image: url(../../img/arrow-left.png);
-  background-size: cover;
+
+.arrow-left-btn {
+  margin-bottom: 5px;
+  background: none;
   cursor: pointer;
 }
-.quote-container::after {
-  content: "";
+.arrow-left-btn:hover {
+  background-color: lightblue;
+}
+
+.arrow-img {
   width: 11px;
   height: 21px;
-  margin-bottom: 10px;
-  background-image: url(../../img/arrow-left.png);
-  background-size: cover;
-  cursor: pointer;
+}
+
+.arrow-right-btn {
+  margin-bottom: 5px;
   transform: scaleX(-1);
+  background: none;
+  cursor: pointer;
+}
+.arrow-right-btn:hover {
+  background-color: lightblue;
 }
 
 .quote-photo1 {
@@ -739,6 +756,9 @@ button {
 .quote-btn {
   background: none;
   cursor: pointer;
+}
+.quote-btn:hover {
+  background-color: lightblue;
 }
 
 .clients-section {
@@ -879,6 +899,191 @@ button {
   height: 70px;
   background-image: url(../../img/billabong-logo.png);
   background-size: cover;
+}
+
+.footer-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 70px 0px 72px 0px;
+  background-image: url("../../img/background-footer.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin-bottom: 46px;
+}
+
+.footer-logo-link {
+  display: flex;
+  align-items: center;
+  margin-bottom: 27px;
+}
+
+.footer-title {
+  margin-top: 20px;
+  margin-bottom: 39px;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 900;
+  letter-spacing: 0.75px;
+  color: #fff;
+}
+
+.footer-text-info {
+  width: 283px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.86;
+  letter-spacing: 0.35px;
+  color: #fff;
+}
+
+.footer-container-contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-local {
+  display: flex;
+  width: 300px;
+  margin-bottom: 27px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.86;
+  letter-spacing: 0.35px;
+  color: #fff;
+}
+.footer-local:hover {
+  color: lightblue;
+}
+
+.footer-local-img {
+  width: 30px;
+  height: 19px;
+  margin-top: 4px;
+  margin-right: 16px;
+}
+.footer-local-img:hover {
+  background-color: lightblue;
+}
+
+.footer-phone {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.35px;
+  color: #fff;
+}
+.footer-phone:hover {
+  color: lightblue;
+}
+
+.footer-phone-img {
+  width: 17px;
+  height: 17px;
+  margin-right: 10px;
+}
+.footer-phone-img:hover {
+  background-color: lightblue;
+}
+
+.footer-form {
+  display: flex;
+  margin-bottom: 27px;
+}
+.footer-form input {
+  padding: 17px 26px 17px 16px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+  opacity: 0.5;
+  border: solid 1px #fff;
+  background: none;
+}
+.footer-form input::placeholder {
+  opacity: 0.75;
+  color: rgba(255, 255, 255, 0.75);
+}
+.footer-form input:focus {
+  color: #fff;
+}
+.footer-form .footer-btn {
+  margin-left: 10px;
+  padding: 10px 22px 10px 23px;
+  opacity: 0.5;
+  border: solid 1px #fff;
+  background-color: #fff;
+  cursor: pointer;
+}
+.footer-form .footer-btn:hover {
+  background-color: lightblue;
+}
+
+.footer-social-networks {
+  display: flex;
+}
+
+.round-object {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  margin-right: 8px;
+  border-radius: 50%;
+  border: solid 1px #fff;
+}
+.round-object:hover {
+  background-color: lightblue;
+}
+.round-object.round-object:last-child {
+  margin-right: 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+.footer-navigation {
+  display: flex;
+}
+.footer-navigation .navigation-item {
+  margin-right: 17px;
+}
+.footer-navigation .navigation-item:last-child {
+  margin-right: 0px;
+}
+.footer-navigation .navigation-text {
+  font-family: Roboto;
+  font-size: 14px;
+  letter-spacing: 0.35px;
+  color: #fff;
+  cursor: pointer;
+}
+.footer-navigation .navigation-text:hover {
+  color: lightblue;
+}
+
+.footer-style {
+  margin-right: 5px;
+  font-family: Roboto;
+  font-size: 14px;
+  letter-spacing: 0.35px;
+  color: #fff;
+}
+.footer-style.footer-style:last-child {
+  margin-right: 0px;
 }
 
 /*# sourceMappingURL=styles.css.map */

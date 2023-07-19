@@ -19,11 +19,12 @@
 .logo-link {
     display: flex;
     align-items: center;
-    margin-right: 286px;
     width: 44px;
     height: 50px;
+    margin-right: 286px;
+    @include hover-style;   
 }
-
+    
 .title-main {
     margin-left: 11px;
     font-family: Roboto;
@@ -55,10 +56,7 @@
             letter-spacing: 0.33px;
             color: $color-words;  
             cursor: pointer;
-
-            &:hover {
-                color: $base-color;
-            }
+            @include hover-color;
         }    
     }
 }
@@ -117,5 +115,6 @@
     border: solid 1px #c2c2c2;
     background: none;
     cursor: pointer;
+    @include hover-style;
 }
 

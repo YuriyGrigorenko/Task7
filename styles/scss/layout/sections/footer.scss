@@ -180,5 +180,7 @@
 
     &.footer-style:last-child {
         margin-right: 0px;
+        @include hover-color;
+        cursor: pointer;
     }
 }

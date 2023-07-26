@@ -12,9 +12,10 @@
     }
 }
 
-@mixin hover-style {
+@mixin hover-style($border-radius: 50%) {
     &:hover {
         background-color: $base-color;
+        border-radius: $border-radius;
     }
 }
 

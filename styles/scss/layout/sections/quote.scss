@@ -51,11 +51,11 @@
     color: rgba(255, 255, 255, 0.7);
 }
 
-.quote-container {
+.quote-container-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 400px;
+    width: 350px;
 }
 
 .arrow-left-btn {
@@ -76,6 +76,11 @@
     background: none;
     cursor: pointer;
     @include hover-style;
+}
+
+.quote-container {
+    display: flex;
+    align-items: center;
 }
 
 .quote-photo1 {
@@ -106,7 +111,7 @@
 .quote-btn {
     background: none;
     cursor: pointer;
-    @include hover-style;
+    @include hover-style(50%);
 }
   
 
